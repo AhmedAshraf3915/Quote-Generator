@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url(../imgs/wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header h1{
+    font-size: 70px;
+    font-weight: 1000;
+    line-height: 50px;
+    margin: 50px 0px;
+    color: #162625;
+}
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 0px;
+    color: #162625;
+}
+#btn{
+    font-size: 30px;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    color: #162625;
+    background-color:#69BFA0 ;
+    transition: all .3s;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: #4A8C74;
+}
+.quote{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 40px;
+    width: 80%;
+    height: 100px;
+    color: #4A8C74;
+}
